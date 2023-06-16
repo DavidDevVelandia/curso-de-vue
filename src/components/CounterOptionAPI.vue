@@ -1,6 +1,6 @@
 <template>
-    <h3></h3>
-    <button>Increase</button>
+    <h3>{{ counter }}</h3>
+    <button @click="addCounter()">Increase</button>
 </template>
 
 <script>
